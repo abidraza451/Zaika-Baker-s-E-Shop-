@@ -1,0 +1,128 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}
+  Home
+{% endblock %}
+
+
+
+{% block banner_slider %}
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'app/images/banner/b1.png' %}" class="d-block w-100" alt="banner image" />
+      </div>
+      <div class="carousel-item">
+        <a href="{% url 'category' 'PTY' %}">
+         <img src="{% static 'app/images/banner/b2.png' %}" class="d-block w-100" alt="banner image" />
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="{% url 'category' 'CK' %}">
+          <img src="{% static 'app/images/banner/b3.png' %}" class="d-block w-100" alt="banner image" />
+        </a>  
+      </div>
+      
+    </div>
+  </div>
+{% endblock %}
+
+
+
+
+
+
+{% block information %}
+  <div class="container">
+    <div class="row bg-success text-center p-5 text-white border-bottom shadow">
+      <h1>Products</h1>
+      <small class="fs-5">
+        Zaika Baker's offers an extensive range of bakery delights, featuring traditional favorites and innovative creations. From fresh bread and cakes to pastries, cookies, and confectionery treats, each item is crafted with care and quality ingredients to delight your taste buds. Whether it's for a special occasion or a simple indulgence, Zaika Baker's has something to satisfy every craving and elevate any moment.
+      </small>
+    </div>
+  </div>
+{% endblock %}
+
+{% block main_content %}
+ 
+  <div class="container">
+    <div class="row container">
+      <!-- Product 1 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec smbg">
+          <a href="{% url 'category' 'CK' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/dark_choclate_cake.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">Cake</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec buttermilk">
+          <a href="{% url 'category' 'CKS' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/chocochips_cookies.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">Cookies</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec curdbgpro">
+          <a href="{% url 'category' 'PTY' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/dark_choclate_pastry.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">Pastries</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br /> <br />
+
+    <div class="row container">
+      <!-- Product 1 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec smbg">
+          <a href="{% url 'category' 'BR' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/bread.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">Breads</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec buttermilk">
+          <a href="{% url 'category' 'BC' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/blue_barry_bento.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">Bento Cake</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-4 col-sm-4 mi-go wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="animation-duration: 1s; animation-delay: 0.6s; animation-name: none;">
+        <div class="goodnesssec curdbgpro">
+          <a href="{% url 'category' 'PDD' %}">
+            <div class="goodnessseccont text-center">
+              <img src="{% static 'app/images/product/Dark_choclate_pudding.png' %}" class="img-responsive" alt="" />
+              <p class="mlkpro">IceBar</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /> <br />
+  <br /> <br />
+{% endblock %}
