@@ -22,11 +22,13 @@ Zaika Baker's E-Shop is a web application developed using Django, a high-level P
     pip install -r requirements.txt
 
 4. Apply migrations:<br>
-    python manage.py migrate
+    python manage.py migrate <br>
 
-5. Run the development server:<br>
+5. Paste your Razorpay key and Secret key in setting.py file    <br> 
+
+6. Run the development server:<br>
     python manage.py runserver
-6. Paste your Razorpay key and Secret key in setting.py file    
+  
 
 7. Open your web browser and visit:<br>
    http://127.0.0.1:8000/ to access the application.
