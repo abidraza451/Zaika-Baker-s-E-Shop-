@@ -11,6 +11,15 @@ Zaika Baker's E-Shop is a web application developed using Django, a high-level P
 - Manage cart contents and quantities
 - Securely complete payments via Razorpay
 
+![1](https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/e9576906-6441-41c1-bc1e-063203d92146)
+![2](https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/f4bc63b4-c8f6-46ab-9dd3-84bf27557197)
+![3](https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/12ae148a-7b56-42cb-85ef-0eb47292cb4d)
+![4](https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/8de9804b-b2d0-4a21-b6f7-3187fefafc0f)
+![6](https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/e753ff0e-d13c-4f00-8bc1-e4340673641d)
+
+https://github.com/abidraza451/Weather-Forecast-App-WeatherWhiz/assets/62200623/1c82b860-a0ad-4fc0-936b-52fd076282b4
+  
+
 ## Installation
 1. Clone the repository to your local machine:<br>
     https://github.com/your-username/zaika-bakers-e-shop.git
